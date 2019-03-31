@@ -1,4 +1,6 @@
 .travel-agency {
   border: 1px solid red;
-  background-color: red;
+  background-color: rgb(195, 209, 209);
+  border: 2px solid blue;
+  /* height: 100vh; */
 }

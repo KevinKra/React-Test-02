@@ -1,0 +1,19 @@
+.Card {
+  background-color: rgb(244, 246, 250);
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin: 2px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 1px 1px 5px darkslategrey;
+  border-radius: 5px;
+}
+
+.Card-header {
+}
+
+.Card-header h1 {
+  margin: 0.4rem;
+}
