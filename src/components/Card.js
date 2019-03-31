@@ -2,15 +2,17 @@ import React from "react";
 import "../css/Card.css";
 import InterestBar from "./InterestBar";
 
-const Card = props => {
+const Card = ({ city, attraction, season }) => {
   return (
     <div className="Card">
       <header className="Card-header">
-        <h1>The Beautiful city of {props.city}</h1>
+        <h1>The Beautiful city of {city}</h1>
       </header>
       <section className="Card-paragraphs">
-        <p>Belize is known for its wonderful {props.attraction}</p>
-        <p>The ideal time to visit is in {props.season}.</p>
+        <p>
+          {city} is known for its wonderful {attraction}
+        </p>
+        <p>The ideal time to visit is in {season}.</p>
       </section>
       <footer>
         <InterestBar />

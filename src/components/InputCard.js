@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/InputCard.css";
+import Submit from "./Submit";
 class InputCard extends React.Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class InputCard extends React.Component {
           // cols="10"
           placeholder="Enter input here!"
         />
+        <Submit />
       </form>
     );
   }
