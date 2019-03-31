@@ -12,7 +12,7 @@ class InputCard extends React.Component {
           // cols="10"
           placeholder="Enter input here!"
         />
-        <Submit />
+        <Submit btnName="Submit" />
       </form>
     );
   }

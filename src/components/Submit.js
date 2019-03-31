@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/Submit.css";
-const Submit = props => {
+const Submit = ({ btnName }) => {
   return (
     <button type="submit" className="Submit">
-      Submit
+      {btnName}
     </button>
   );
 };

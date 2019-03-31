@@ -1,10 +1,12 @@
 import React from "react";
-
+import "../css/NotFound.css";
 const NotFound = () => {
   return (
-    <div>
-      <h2>Not Found</h2>
-    </div>
+    <section className="NotFoundContainer">
+      <article>
+        <h2>Not Found</h2>
+      </article>
+    </section>
   );
 };
 
