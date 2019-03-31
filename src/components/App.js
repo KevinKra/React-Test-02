@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/App.css";
-import Card from "./Card";
+import Cards from "./Cards";
 class App extends React.Component {
   render() {
     return (
@@ -9,9 +9,9 @@ class App extends React.Component {
           <header tagline="Travel to Exotic Locations" />
         </div>
         <div>
-          <Card />
-          <Card />
-          <Card />
+          <Cards />
+          <Cards />
+          <Cards />
         </div>
       </div>
     );
