@@ -1,0 +1,9 @@
+.InterestBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.InterestBar input {
+  margin: 1rem;
+  /* padding: 15px; */
+}
