@@ -6,9 +6,9 @@ class Cards extends React.Component {
   render() {
     return (
       <article className="Cards">
-        <Card />
-        <Card />
-        <Card />
+        <Card city="Morocco" attraction="caves" season="early Fall" />
+        <Card city="Budapest" attraction="hiking" season="late Spring" />
+        <Card city="Colorado" attraction="skiing" season="Winter" />
       </article>
     );
   }
