@@ -1,6 +1,5 @@
 .Cards {
   border: 1px solid purple;
   display: flex;
-  width: 150px;
   flex-direction: column;
 }
