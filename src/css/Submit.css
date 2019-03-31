@@ -1,0 +1,9 @@
+.Submit {
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 15px;
+  width: 4rem;
+  padding: 0.2rem;
+
+  color: rgb(75, 75, 75);
+  margin: 0.3rem auto;
+}
