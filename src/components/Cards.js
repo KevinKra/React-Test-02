@@ -8,7 +8,7 @@ class Cards extends React.Component {
       <article className="Cards">
         <Card city="Morocco" attraction="caves" season="early Fall" />
         <Card city="Budapest" attraction="hiking" season="late Spring" />
-        <Card city="Colorado" attraction="skiing" season="Winter" />
+        <Card city="Boulder" attraction="skiing" season="Winter" />
       </article>
     );
   }
