@@ -1,14 +1,14 @@
-import React from 'react';
-
+import React from "react";
+import "../css/App.css";
 class App extends React.Component {
   render() {
     return (
-      <div className="top-level-element">
-        <div className="page">
-          <header tagline="Hello World"></header>
+      <div className="travel-agency">
+        <div className="splash-page">
+          <header tagline="Travel to Exotic Locations" />
         </div>
       </div>
-    )
+    );
   }
 }
 
