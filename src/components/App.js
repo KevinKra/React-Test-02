@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/App.css";
 import Cards from "./Cards";
-import SplashImage from "./SplashImage";
+import SplashInput from "./SplashInput";
 class App extends React.Component {
   render() {
     return (
@@ -11,7 +11,7 @@ class App extends React.Component {
         </div>
         <div className="App-components">
           <Cards />
-          <SplashImage />
+          <SplashInput />
         </div>
       </div>
     );
