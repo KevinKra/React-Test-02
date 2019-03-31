@@ -1,0 +1,8 @@
+.SplashImage {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgb(227, 238, 248);
+  box-shadow: 1px 1px 5px darkslategray;
+  margin: 0.3rem;
+}

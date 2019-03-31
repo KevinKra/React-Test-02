@@ -1,0 +1,10 @@
+.InputCard {
+  border: 1px solid blue;
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  padding: 0.3rem;
+  background-color: rgb(244, 246, 250);
+  box-shadow: 1px 1px 5px darkslategrey;
+}

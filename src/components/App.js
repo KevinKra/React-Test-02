@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/App.css";
 import Cards from "./Cards";
+import SplashInput from "./SplashInput";
 class App extends React.Component {
   render() {
     return (
@@ -8,9 +9,9 @@ class App extends React.Component {
         <div className="splash-page">
           <header tagline="Travel to Exotic Locations" />
         </div>
-        <div>
+        <div className="App-components">
           <Cards />
-          <Cards />
+          <SplashInput />
         </div>
       </div>
     );
