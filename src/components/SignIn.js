@@ -1,21 +1,30 @@
 import React from "react";
 import Submit from "./Submit";
+import { getFunName } from "../helpers";
 import "../css/SignIn.css";
-const SignIn = () => {
-  return (
-    <div className="SignInContainer">
-      <form className="SignIn">
-        <label htmlFor="signInInput">
-          <input
-            type="text"
-            name="signInInput"
-            placeholder="Please sign in..."
-          />
-        </label>
-        <Submit btnName="Log In" />
-      </form>
-    </div>
-  );
-};
+class SignIn extends React.Component {
+  myInput = React.createRef();
+  goToMain = e => {
+    e.preventDefault();
+    console.log(this.myInput.current.value);
+  };
+  render() {
+    return (
+      <div className="SignInContainer">
+        <form className="SignIn" onSubmit={this.goToMain}>
+          <label htmlFor="signInInput">
+            <input
+              type="text"
+              name="signInInput"
+              ref={this.myInput}
+              defaultValue={getFunName()}
+            />
+          </label>
+          <Submit btnName="Log In" />
+        </form>
+      </div>
+    );
+  }
+}
 
 export default SignIn;
