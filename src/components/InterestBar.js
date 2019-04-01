@@ -1,16 +1,16 @@
 import React from "react";
 import "../css/InterestBar.css";
 class InterestBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
   radioYes = React.createRef();
   radioNo = React.createRef();
-  handleClick() {
-    console.log(this.radioYes.current.value);
-    console.log(this.radioNo.current.value);
-  }
+
+  handleClick = () => {
+    const ofInterest = {
+      radioYes: this.radioYes.current.value,
+      radioNo: this.radioNo.current.value
+    };
+    console.log(ofInterest);
+  };
   //not sure how to select unique values when there are two onclick
   render() {
     return (
