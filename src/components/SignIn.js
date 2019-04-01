@@ -6,7 +6,8 @@ class SignIn extends React.Component {
   myInput = React.createRef();
   goToMain = e => {
     e.preventDefault();
-    console.log(this.myInput.current.value);
+    const inputValue = this.myInput.current.value;
+    this.props.history.push(`/store/${inputValue}`);
   };
   render() {
     return (

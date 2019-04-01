@@ -11,6 +11,7 @@ class InterestBar extends React.Component {
     console.log(this.radioYes.current.value);
     console.log(this.radioNo.current.value);
   }
+  //not sure how to select unique values when there are two onclick
   render() {
     return (
       <form className="InterestBar" onClick={this.handleClick}>
